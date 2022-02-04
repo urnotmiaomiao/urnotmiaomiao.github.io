@@ -1,0 +1,18 @@
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:active {
+    text-decoration: blink
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
