@@ -22,7 +22,10 @@
 <body>
     <nav class="navbar navbar-expand navbar-dark sticky-top" style="height: 2.5rem;">
         <div class="mx-auto d-none d-sm-block">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav"> 
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">XYZ</span></a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#About">About</a>
                 </li>
@@ -33,9 +36,12 @@
                     <a class="nav-link" href="#Publications">Publications</a>
                 </li>
             </ul>
-        </div> 
+        </div>
         <div class="mx-auto d-block d-sm-none">
             <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">XYZ</span></a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#About">About</a>
                 </li>
@@ -46,7 +52,7 @@
                     <a class="nav-link" href="#Publications">Publi...</a>
                 </li>
             </ul>
-        </div> 
+        </div>
     </nav>
 
     <!-- <div style="height: 70px;"></div> -->
@@ -85,46 +91,65 @@
     <div class="container-fluid">
         <div class="row justify-content-center justify-content-around">
             <div class="col-md-9 col-lg-6" id="ContentPane">
-                <div class="py-5 text-center" id="About">
+                <div class="pt-5" id="Notes">
+                    <h3>developer's notes</h3>
+                    <div class="alert alert-primary mt-3" role="alert">
+                        💭 Select a cover picture... pending
+                    </div>
+                    <div class="alert alert-warning mt-3" role="alert">
+                        Also, an avatar photo would be aprriciated :)
+                    </div>
+                    <div class="alert alert-info mt-3" role="alert">
+                        anything else you may want to have in this page? send an email <a href="urnotmiaomiao@gmail.com"
+                            aria-label="envelope"> <i class="fas fa-envelope"></i></a>
+                        (or just let me know, it's 2:17am now, my brain is not working properly)
+                    </div>
+                    <div class="alert alert-danger mt-3" role="alert">
+                        FYI, this is a Valentine's Day gift 🌹
+                    </div>
+                </div>
+                <div class="pt-5 " id="About">
+                    <h3>About</h3>
                     <!-- <h2>Welcome</h2> -->
-                    <p class="font-weight-light">Hello world. a long long long sentence to introduce yourself. blah blah
+                    <p class="font-weight-light">Hello world. a looong sentence to introduce yourself. blah blah
                         blah</p>
+                    <p class="font-weight-light">An engineer and researcher specializing in failure analysis and
+                        materials characterization.
+                        Having a strong background in physical metallurgy and materials science, and more than 6-year
+                        hands-on experience in cross-platform characterization.</p>
                     <p class="font-weight-light">something like: phd, graduated 2023, in Natural Science and Engineering
                         Research Laboratory, Department of Materials Science and Engineering, University of Texas at
                         Dallas</p>
                 </div>
 
-                <div class="mb-3" id="R_News">
+                <div class="pt-5" id="R_News">
                     <h3>Recent News</h3>
                     <div class="news">
                         <div class="table-responsive">
                             <table class="table table-sm table-borderless">
                                 <tbody>
                                     <tr>
-                                        <th scope="row" style="width: 20%">Jan 15, 2016</th>
-                                        <td> A simple inline announcement with Markdown emoji! <img class="emoji"
-                                                title=":sparkles:" alt=":sparkles:"
+                                        <th scope="row" style="width: 20%">May (I guess), 2023</th>
+                                        <td> Graduation! <img class="emoji" title=":sparkles:" alt=":sparkles:"
                                                 src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
-                                                height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:"
-                                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"
-                                                height="20" width="20"> </td>
+                                                height="20" width="20"></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" style="width: 20%">Nov 07, 2015</th>
-                                        <td> <a class="news-title" href="/al-folio/news/announcement_2/">A long
-                                                announcement with details</a> </td>
+                                        <th scope="row" style="width: 20%">Nov 07, 2020</th>
+                                        <td> <a class="news-title" href="#">a random date with a useless link</a> </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" style="width: 20%">Oct 22, 2015</th>
-                                        <td> A simple inline announcement. </td>
+                                        <th scope="row" style="width: 20%">Agu 8, 2019</th>
+                                        <td> Arrival at Dallas (08.08 is for me, anyway, just don't know what to put
+                                            here) </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-                <div class="mb-3 publications">
-                    <h3 id="Publications">Selected Publications</h3>
+                <div class="pt-5 publications" id="Publications">
+                    <h3>Selected Publications</h3>
                     <ol class="bibliography">
                         <li>
                             <div class="row mb-3">
@@ -186,24 +211,28 @@
                         <li>
                             <div class="row mb-3">
                                 <div class="alert alert-light" role="alert">
-                                    TBC
+                                    TBC. Just put three papers here. You could choose whatever papers you want to add to
+                                    this list
                                 </div>
                             </div>
                         </li>
                     </ol>
                 </div>
-                <div class="mb-3">
+                <div class="py-5">
                     <h3>etc. </h3>
                     <p>for example, IDK...</p>
+                    <div class="alert alert-secondary mt-3" role="alert">
+                        Any idea what to put here? Or we could delete this section at least
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer py-1">
+    <!-- <footer class="footer py-1">
         <div class="container text-center">
             <span class="text-muted">Place footer content here.</span>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
