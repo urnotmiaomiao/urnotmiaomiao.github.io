@@ -20,17 +20,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="height: 3rem;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+    <nav class="navbar navbar-expand navbar-dark sticky-top" style="height: 2.5rem;">
+        <div class="mx-auto d-none d-sm-block">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">XYZ <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#About">About</a>
                 </li>
@@ -40,21 +32,23 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Publications">Publications</a>
                 </li>
+            </ul>
+        </div> 
+        <div class="mx-auto d-block d-sm-none">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link disabled">etc</a>
+                    <a class="nav-link" href="#About">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-                        aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#R_News">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Publications">Publi...</a>
                 </li>
             </ul>
-        </div>
+        </div> 
     </nav>
+
     <!-- <div style="height: 70px;"></div> -->
     <div class="page-body">
         <section id="section-about.avatar" class="home-section wg-about-avatar dark">
@@ -205,9 +199,9 @@
             </div>
         </div>
     </div>
-    <footer class="footer py-1 bg-dark">
-        <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+    <footer class="footer py-1">
+        <div class="container text-center">
+            <span class="text-muted">Place footer content here.</span>
         </div>
     </footer>
 
